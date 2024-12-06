@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Calls Lab 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>API Calls Lab 10</h1>
+        <div class="button-group">
+            <button id="fetchBtn">Fetch Data with fetch()</button>
+            <button id="xhrBtn">Fetch Data with XHR</button>
+        </div>
+        <div id="dataDisplay"></div>
+        <form id="dataForm">
+            <div class="form-group">    
+                <label for="postId"><strong>Post ID:</strong></label>    
+                <input type="number" id="postId" >
+                <label for="postTitle"><strong>Post Title:</strong></label>
+                <input type="text" id="postTitle" placeholder="" required>
+                <label for="postBody"><strong>Post Body:</strong></label>
+                <textarea id="postBody" placeholder="" required></textarea>
+            </div>
+            <button type="submit">Create/Update Post</button>
+            <button type="button" id="deleteBtn" class="delete-btn">Delete Post</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
