@@ -1,6 +1,6 @@
 # API Calls Lab - REST Operations Demo
 
-![javascriptlab10webpage](https://hjoseph777.github.io/javascriptLab10/)
+[javascriptlab10webpage](https://hjoseph777.github.io/javascriptLab10/)
 
 ## Overview
 This project demonstrates various methods of making HTTP requests to a REST API using both modern and traditional JavaScript approaches. It showcases GET, POST, PUT, and DELETE operations using the JSONPlaceholder API as a testing endpoint.
